@@ -104,6 +104,7 @@ $dictionary=array(
 'APP_QUOTES'=>'Citas',
 'APP_ALARMCLOCK'=>'Despertador',
 'APP_OPENWEATHER'=>'El tiempo de OpenWeatherMap',
+'APP_INTERNET_RADIO'=> 'Internet radio',
 'SYS_DATEFORMAT'=>'Formato de fecha',
 'APP_YATRAFFIC'=>'Yandex.Traffic',
 'APP_CHATBOX'=>'Ventana de chat',

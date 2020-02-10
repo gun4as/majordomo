@@ -118,6 +118,7 @@ $dictionary = array(
     'APP_QUOTES' => 'Αποσπάσματα',
     'APP_ALARMCLOCK' => 'Ξυπνητήρι',
     'APP_OPENWEATHER' => 'OpenWeatherMap καιρός',
+    'APP_INTERNET_RADIO'=> 'Internet radio',
     'SYS_DATEFORMAT' => 'Μορφή ημερομηνίας',
     'APP_YATRAFFIC' => 'Yandex.Probki',
     'APP_CHATBOX' => 'Μηνύματα',
@@ -336,7 +337,7 @@ $dictionary = array(
 'CUSTOM_HTML_BOX' => 'μπλοκ HTML',
 'ICON' => 'Εικονίδιο',
 
-                           
+
 'MIN_VALUE' => 'Ελάχ. αξία',
 
 
@@ -952,7 +953,7 @@ $dictionary = array(
 'WEEK_WED' => 'Περιβάλλον',
 'WEEK_THU' => 'Πέμπτη',
 'WEEK_FRI' => 'Παρασκευή',
-'WEEK_SAT' => 'Σάββατο',   
+'WEEK_SAT' => 'Σάββατο',
 
 
 

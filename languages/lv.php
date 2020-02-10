@@ -106,6 +106,7 @@ $dictionary=array(
 'APP_QUOTES'=>'Citāti',
 'APP_ALARMCLOCK'=>'Modinātājs',
 'APP_OPENWEATHER'=>'Laika prognoze no  OpenWeatherMap',
+'APP_INTERNET_RADIO'=> 'Interneta rādio',
 'SYS_DATEFORMAT'=>'Datuma formāts',
 'APP_YATRAFFIC'=>'Yandex.Traffic',
 'APP_CHATBOX'=>'Tērzēšanas lodziņš',

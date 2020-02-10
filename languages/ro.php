@@ -74,6 +74,7 @@ $dictionary=array(
 'APP_QUOTES'=>'Citate',
 'APP_ALARMCLOCK'=>'Deșteptător',
 'APP_OPENWEATHER'=>'Vremea de la OpenWeatherMap',
+'APP_INTERNET_RADIO'=> 'Internet radio',
 'SYS_DATEFORMAT'=>'Formatul datei',
 'APP_YATRAFFIC'=>'Yandex. Ambuteiaje',
 'APP_CHATBOX'=>'Mesaje',

@@ -74,6 +74,7 @@ $dictionary=array(
 'APP_QUOTES'=>'Citatos',
 'APP_ALARMCLOCK'=>'Žadintuvas',
 'APP_OPENWEATHER'=>'Orai nuo OpenWeatherMap',
+'APP_INTERNET_RADIO'=> 'Internet radio',
 'SYS_DATEFORMAT'=>'Datos formatas',
 'APP_YATRAFFIC'=>'Yandex.Gatvių_kamščiai',
 'APP_CHATBOX'=>'Pranešimai',

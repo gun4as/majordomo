@@ -73,6 +73,7 @@ $dictionary=array(
 'APP_QUOTES'=>'Citazioni',
 'APP_ALARMCLOCK'=>'Scveglia',
 'APP_OPENWEATHER'=>'Tempo da OpenWeatherMap',
+'APP_INTERNET_RADIO'=> 'Internet radio',
 'SYS_DATEFORMAT'=>'Formato della data',
 'APP_YATRAFFIC'=>'Yandex.Traffico',
 'APP_CHATBOX'=>'Messaggi',
