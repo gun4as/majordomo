@@ -275,10 +275,10 @@ function timeNow($tm = 0)
     // if (LANG_HOURS_ARRAY and LANG_MINUTE_ARRAY) {
     //     $array = explode(',', LANG_HOURS_ARRAY);
     //     $hw = $h . ' ' . getNumberWord($h, $array);
-    //     if ($m > 0) {
-    //         $array = explode(',', LANG_MINUTE_ARRAY);
-    //         $ms = $m . ' ' . getNumberWord($m, $array);
-    //     }
+        if ($m > 0) {
+            $array = explode(',', LANG_MINUTE_ARRAY);
+             $ms = $m . ' ' . getNumberWord($m, $array);
+        }
     // } else {
         $hw = date('H:i', $tm);
     //}
