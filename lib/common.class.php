@@ -272,16 +272,16 @@ function timeNow($tm = 0)
     $m = (int)date('i', $tm);
     $ms = '';
 
-    if (LANG_HOURS_ARRAY and LANG_MINUTE_ARRAY) {
-        $array = explode(',', LANG_HOURS_ARRAY);
-        $hw = $h . ' ' . getNumberWord($h, $array);
-        if ($m > 0) {
-            $array = explode(',', LANG_MINUTE_ARRAY);
-            $ms = $m . ' ' . getNumberWord($m, $array);
-        }
-    } else {
+    // if (LANG_HOURS_ARRAY and LANG_MINUTE_ARRAY) {
+    //     $array = explode(',', LANG_HOURS_ARRAY);
+    //     $hw = $h . ' ' . getNumberWord($h, $array);
+    //     if ($m > 0) {
+    //         $array = explode(',', LANG_MINUTE_ARRAY);
+    //         $ms = $m . ' ' . getNumberWord($m, $array);
+    //     }
+    // } else {
         $hw = date('H:i', $tm);
-    }
+    //}
 
     $res = trim($hw . " " . $ms);
     return $res;
@@ -1359,7 +1359,7 @@ function get_media_info($file)
 	$out['duration'] = $seconds + ($minutes * 60) + ($hours * 60 * 60);
 	// get all info about codec
 	preg_match("/Audio: (.+), (.\d+) Hz, (.\w+), (.+), (.\d+) kb/", $data, $format);
-    
+
 	if ($format) {
 		$out['Audio_format'] = $format[1];
 		$out['Audio_sample_rate'] = $format[2];
@@ -1370,7 +1370,7 @@ function get_media_info($file)
 			$out['Audio_chanel'] = 1;
 		} else {
 			$out['Audio_chanel'] = 2;
-		}	
+		}
 	}
     preg_match("/Video: (.+),\s(.\d+x.\d+) (.+), (.+), (.+), (.+), (.+), (.+) /", $data, $formatv);
     if ($formatv) {
