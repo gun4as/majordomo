@@ -278,8 +278,11 @@ function timeNow($tm = 0)
         $array = explode(',', LANG_HOURS_ARRAY);
        $hw = $h . ' ' . getNumberWord($h, $array);
        if (SETTINGS_SITE_LANGUAGE == 'lv') {
-       $hw = $h . ' ' .( LANG_V_AND);
-     }
+         if ($m = 0) {
+           $hw = $h ;
+         }
+          $hw = $h . ' ' .( LANG_V_AND);
+        }
 
        if ($m > 0) {
            $array = explode(',', LANG_MINUTE_ARRAY);
