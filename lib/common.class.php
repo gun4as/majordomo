@@ -280,7 +280,7 @@ function timeNow($tm = 0)
        if (SETTINGS_SITE_LANGUAGE == 'lv') {
          if ($m = 0) {
            $hw = $h ;
-         }
+         }else{
           $hw = $h . ' ' .( LANG_V_AND);
         }
 
