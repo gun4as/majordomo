@@ -273,8 +273,14 @@ function timeNow($tm = 0)
     $ms = '';
 
    if (LANG_HOURS_ARRAY and LANG_MINUTE_ARRAY) {
+
+
         $array = explode(',', LANG_HOURS_ARRAY);
        $hw = $h . ' ' . getNumberWord($h, $array);
+       if (SETTINGS_SITE_LANGUAGE == 'lv') {
+       $hw = $h . ' ' .( LANG_V_AND);
+     }
+
        if ($m > 0) {
            $array = explode(',', LANG_MINUTE_ARRAY);
             $ms = $m . ' ' . getNumberWord($m, $array);

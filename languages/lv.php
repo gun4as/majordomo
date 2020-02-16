@@ -911,7 +911,8 @@ $dictionary=array(
 'CONNECT_ENABLE_CLOUDBACKUPC'=>'Ieslēgt Cloud rezerves kopiju',
 'CONNECT_DISABLE_SECURE_CONNECTION'=>'Atspējot šifrētu savienojuma pieslēgumu',
 'HOURS_ARRAY'=>'stunda,stundas,stunda',
-    'MINUTE_ARRAY'=>'minūte,minūtes,minūtes',
+'MINUTE_ARRAY'=>'minūte,minūtes,minūtes',
+'V_AND'=>'un',
 
     'FEATURES_SUPPORTED' => 'Tiek atbalstītas šīs īpašibas',
     'NO_FEATURES_WARNING' => 'Diemžel šīs ipašības netiek atbalstītas',
