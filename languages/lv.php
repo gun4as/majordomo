@@ -681,7 +681,7 @@ $dictionary=array(
 'UPDATE_ALL_EXTENSIONS'=>'Atjaunot visus uzstādītos papildinājumus',
 'MARKET_CATEGORY_INSTALLED'=>'Uzstādīts',
 'MARKET_CATEGORY_OWNED'=>'Iegādāts',
-'MARKET_CATEGORY_HAVE_UPDATES'=>'Atjaunots',
+'MARKET_CATEGORY_HAVE_UPDATES'=>'Ir atjauninājumi',
 'MARKET_CATEGORY_HARDWARE'=>'Iekārta',
 'MARKET_CATEGORY_MULTIMEDIA'=>'Multimēdija',
 'MARKET_CATEGORY_INFORMATION'=>'Informācija',
@@ -910,7 +910,7 @@ $dictionary=array(
 'CONNECT_ENABLE_CLOUDSYNC'=>'Ieslēgt Cloud Sync',
 'CONNECT_ENABLE_CLOUDBACKUPC'=>'Ieslēgt Cloud rezerves kopiju',
 'CONNECT_DISABLE_SECURE_CONNECTION'=>'Atspējot šifrētu savienojuma pieslēgumu',
-'HOURS_ARRAY'=>'stunda,sundas,stunda',
+'HOURS_ARRAY'=>'stunda,stundas,stunda',
     'MINUTE_ARRAY'=>'minūte,minūtes,minūtes',
 
     'FEATURES_SUPPORTED' => 'Tiek atbalstītas šīs īpašibas',
@@ -929,19 +929,19 @@ $dictionary=array(
     'VALIDATION_TYPE_DICTIONARY' => 'Vārdnīcas atbilstība',
     'VALIDATION_TYPE_CUSTOM' => 'Pielāgots (kods)',
     'REMINDER_INTRO' => 'Atgādinu, ka',
-	
-	
+
+
   /* end module names */
 
   /* start array for convert number to string */
-    
+
 	'NUMBER_TO_STRING_1TEN' => array( array('','viens','divi','trīs','četri','pieci','seši','septiņi', 'astoņi','deviņi'), array('','viens','divi','trīs','četri','pieci','seši','septiņi', 'astoņi','deviņi')),
 	'NUMBER_TO_STRING_2TEN' => array('desmin', 'vienpadsmit', 'divpadsmit', 'trispadsmit', 'četrpadsmit', 'piecpadsmit', 'sešpadsmit', 'septiņpadsmit', 'astoņpadsmit', 'deviņpadsmit'),
 	'NUMBER_TO_STRING_TENS' => array(2=>' divdesmit ',' trisdesmit ',' četrdesmit ',' piecdesmit ',' sešdesmit ',' septiņdesmit ',' astoņdesmit ',' deviņdesmit '),
 	'NUMBER_TO_STRING_HUNDRED' => array('','simts','divi simti','trīs simti','četri simti','pieci simti','seši simti', 'septiņi simti','astoņi simti','deviņi simti'),
 	'NUMBER_TO_STRING_UNIT' => array(array('desmitā ' ,'desmitās ' , 1), array(' ' ,' vesals'   ,' vesali' ,0),array('tūkstotis ',' tūkstoši', 'tūkstots'     ,1), array('miljons ',' miljoni ',' miljoni' ,0), array('biljons', 'biljoni', 'biljoni',0)),
 	'NUMBER_TO_STRING_NULL' => 'nulle',
-	
+
     /* end array for convert number to string  */
 );
 
